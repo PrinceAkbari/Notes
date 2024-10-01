@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/notes"
+        android:icon="@drawable/notes"
+        android:title="Notes" />
+
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/categoryy"
+        android:title="Category" />
+
+    <item
+        android:id="@+id/add"
+        android:enabled="false"
+        android:title=""/>
+
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar"
+        android:title="Calendar" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+
+</menu>

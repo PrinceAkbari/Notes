@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/gridview"
+        android:icon="@drawable/gridview"
+        android:title="Grid view"/>
+
+    <item
+        android:id="@+id/select"
+        android:icon="@drawable/select"
+        android:title="Select"/>
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/sort"
+        app:showAsAction="collapseActionView"
+        android:title="Sort"/>
+
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/sync"
+        android:title="Sync"/>
+
+
+</menu>

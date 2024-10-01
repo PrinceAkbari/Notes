@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:text="Font size"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fifty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50%"/>
+
+            <RadioButton
+                android:id="@+id/seventyfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="75%"/>
+
+            <RadioButton
+                android:id="@+id/ninety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="90%"/>
+
+            <RadioButton
+                android:id="@+id/onehundred"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100%"/>
+
+            <RadioButton
+                android:id="@+id/onehundredtwentyfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="125%"/>
+
+            <RadioButton
+                android:id="@+id/onehundredfifty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="150%"/>
+
+            <RadioButton
+                android:id="@+id/onehundredseventyfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="175%"/>
+
+            <RadioButton
+                android:id="@+id/twohundred"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="200%"/>
+
+            <RadioButton
+                android:id="@+id/twohundredfifty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="250%"/>
+        </RadioGroup>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

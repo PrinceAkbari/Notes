@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".NotesFragment">
+
+
+    <LinearLayout
+        android:id="@+id/llspinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lytoolbar"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Notes"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="10sp"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="15sp"
+                android:layout_height="8sp"
+                android:layout_marginTop="3sp"
+                android:layout_gravity="center_vertical"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/spinner"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_below="@id/llspinner1"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/imageView"
+            android:src="@drawable/img_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView1"
+            android:text="No notes yet?"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView2"
+            android:text="Press ‘Create a note’ to get started!"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

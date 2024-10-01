@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F1EEEE" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/language"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/langauge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/recycelbin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/recyclebin" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycle Bin"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/favorite"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/favorite" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorites"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/theme"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/theme" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theme"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/setting"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/setting" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/tags"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/tags" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/reminder"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/reminder" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/backup"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/backup" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backup"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:id="@+id/lock"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/lock" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lock"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

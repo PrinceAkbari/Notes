@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#F2F2F2</color>
+    <color name="grey1">#737373</color>
+    <color name="brown">#5C4D08</color>
+    <color name="yellow">#F2C700</color>
+    <color name="yellow1">#FFFAE9</color>
+    <color name="gray">#B8B4B4</color>
+    <color name="btnpass">#9B9B9B</color>
+    <color name="red">#FA0220</color>
+
+    <color name="unchecked_thumb">#6C6B6B</color>
+    <color name="checked_thumb">#F2C700</color>
+    <color name="unchecked_track">#B8B4B4</color>
+    <color name="checked_track">#D5C370</color>
+    <color name="exit">#FFFBE9</color>
+
+</resources>

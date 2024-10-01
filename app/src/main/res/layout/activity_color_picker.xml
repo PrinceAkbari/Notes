@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Color Selection Images -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colors"
+        android:layout_marginHorizontal="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/colorRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/red"
+            android:contentDescription="Red"/>
+
+        <ImageView
+            android:id="@+id/colorBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/blue"
+            android:contentDescription="Blue"/>
+
+        <ImageView
+            android:id="@+id/colorVadali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/vadali"
+            android:contentDescription="Vadali"/>
+
+        <ImageView
+            android:id="@+id/colorYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/yellow"
+            android:contentDescription="Yellow"/>
+
+        <ImageView
+            android:id="@+id/colorOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/orange"
+            android:contentDescription="Orange"/>
+
+    </LinearLayout>
+
+    <!-- Color Picker Image with Shadow Effect -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorpicker"
+        android:layout_below="@+id/colors"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/colorPickerImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/colorPickerImage1"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/platter" />
+
+    </LinearLayout>
+
+    <!-- Default and Selected Colors Display -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colors1"
+        android:layout_below="@+id/colorpicker"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/bydefaultColorView"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="->"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:textSize="30sp" />
+
+        <View
+            android:id="@+id/selectedColorView"
+            android:layout_width="54dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OK" />
+
+    </LinearLayout>
+
+    <!-- Color Code Display -->
+    <TextView
+        android:id="@+id/colorCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:layout_below="@+id/colors1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

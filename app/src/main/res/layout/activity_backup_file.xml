@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackupFile">
+
+
+    <RelativeLayout
+        android:id="@+id/lytoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="35sp"
+            android:orientation="vertical"
+            android:id="@+id/back_backupfile"
+            android:layout_alignParentBottom="true"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="18sp"
+                android:layout_height="14sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_back"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/brown"
+            android:layout_marginStart="48sp"
+            android:textStyle="bold"
+            android:id="@+id/text"
+            android:text="Backup File"/>
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="15sp"
+        app:cardCornerRadius="10sp"
+        android:id="@+id/setpass"
+        android:layout_below="@id/lytoolbar"
+        android:layout_marginTop="15sp"
+        android:layout_height="60sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#FFFDF5"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center"
+                android:src="@drawable/file"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15sp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_marginStart="10sp"
+                    android:text="20340807154302.zip"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/grey1"
+                    android:gravity="center"
+                    android:layout_marginStart="10sp"
+                    android:text="21/08/2024"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/popbackfile"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_gravity="center"
+                android:layout_height="20sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="10sp"
+                android:src="@drawable/pop"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

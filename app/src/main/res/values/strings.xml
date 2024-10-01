@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="OpenDrawer">open navigation drawer</string>
+    <string name="CloseDrawer">close navigation drawer</string>
+
+    <string-array name="spinner_items">
+        <item>All Notes</item>
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Modify Category</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reminder">Reminder</string>
+</resources>
